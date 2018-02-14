@@ -21,7 +21,7 @@
                     <ul class="chat" id="chat">
                         <li class="left clearfix" v-for="chat in chats[chatWindow.senderid]" v-bind:message="chat.message" v-bind:username="chat.username">
                         <span class="chat-img pull-left">
-                        <img src="http://placehold.it/50/55C1E7/fff&amp;text=U" alt="User Avatar" class="img-circle">
+                        <img src="https://placehold.it/50/55C1E7/fff&amp;text=U" alt="User Avatar" class="img-circle">
                         </span>
                         <div class="chat-body clearfix">
                         <div class="header">
