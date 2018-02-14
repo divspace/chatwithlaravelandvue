@@ -20,7 +20,9 @@ Vue.use(VueResource);
 
 window.Echo = new Echo({
     broadcaster: 'pusher',
-    key: 'ed4acda90c4ac7eb09e1'
+    key: 'ed4acda90c4ac7eb09e1',
+    cluster: 'us2',
+    encrypted: true
 }); 
 
 const app = new Vue({
